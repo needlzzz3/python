@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="изменено имя переменной в файле test_add_group">
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="произведен рефакторинг, строки объеденены в методы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592415680176</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="произведен рефакторинг, строки объеденены в методы">
+      <created>1592506712095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592506712095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change READ ME file" />
     <MESSAGE value="изменено имя переменной в файле test_add_group" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменено имя переменной в файле test_add_group" />
+    <MESSAGE value="произведен рефакторинг, строки объеденены в методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="произведен рефакторинг, строки объеденены в методы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -127,22 +135,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1054" height="266" key="GridCell.Tab.0.bottom" timestamp="1592416962083">
+    <state width="1053" height="266" key="GridCell.Tab.0.bottom" timestamp="1592508122745">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592416962083" />
-    <state width="1054" height="266" key="GridCell.Tab.0.center" timestamp="1592416962083">
+    <state width="1053" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
+    <state width="1053" height="266" key="GridCell.Tab.0.center" timestamp="1592508122745">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592416962083" />
-    <state width="1054" height="266" key="GridCell.Tab.0.left" timestamp="1592416962083">
+    <state width="1053" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
+    <state width="1053" height="266" key="GridCell.Tab.0.left" timestamp="1592508122745">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592416962083" />
-    <state width="1054" height="266" key="GridCell.Tab.0.right" timestamp="1592416962083">
+    <state width="1053" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
+    <state width="1053" height="266" key="GridCell.Tab.0.right" timestamp="1592508122745">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592416962083" />
+    <state width="1053" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
     <state x="2439" y="170" key="SettingsEditor" timestamp="1592417021194">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -155,5 +163,20 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2747" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592411891166" />
+    <state x="2677" y="313" key="git4idea.merge.GitPullDialog" timestamp="1592506955257">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2677" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592506955257" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_add_group.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
