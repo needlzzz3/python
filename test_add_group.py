@@ -8,24 +8,6 @@ class AddGroup(unittest.TestCase):
         self.wd = webdriver.Firefox()
         self.wd.implicitly_wait(30)
 
-    def test_add_group(self):
-        wd = self.wd
-        self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
-        self.open_group_page(wd)
-        self.create_group(wd, groupname="5555", header="5555", footer="5555")
-        self.retern_group_page(wd)
-        self.logout(wd)
-
-    def test_add_empty_group(self):
-        wd = self.wd
-        self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
-        self.open_group_page(wd)
-        self.create_group(wd, groupname="", header="", footer="")
-        self.retern_group_page(wd)
-        self.logout(wd)
-
     def open_home_page(self, wd):
         # open main page
         wd.get("http://localhost/addressbook/group.php")
@@ -67,6 +49,24 @@ class AddGroup(unittest.TestCase):
     def logout(self, wd):
         # logout
         wd.find_element_by_link_text("Logout").click()
+
+    def test_add_group(self):
+        wd = self.wd
+        self.open_home_page(wd)
+        self.login(wd, username="admin", password="secret")
+        self.open_group_page(wd)
+        self.create_group(wd, groupname="5555", header="5555", footer="5555")
+        self.retern_group_page(wd)
+        self.logout(wd)
+
+    def test_add_empty_group(self):
+        wd = self.wd
+        self.open_home_page(wd)
+        self.login(wd, username="admin", password="secret")
+        self.open_group_page(wd)
+        self.create_group(wd, groupname="", header="", footer="")
+        self.retern_group_page(wd)
+        self.logout(wd)
 
     def is_element_present(self, how, what):
         try: self.wd.find_element(by=how, value=what)
