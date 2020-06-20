@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="доавлен класс">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="обновлены функции">
+      <change beforePath="$PROJECT_DIR$/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +46,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
-    <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_add_group.py">
+    <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,6 +94,11 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_add_group.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592666945532</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="обновлены функции">
+      <created>1592673226836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592673226837</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +230,8 @@
     <MESSAGE value="зарефакторила функцию login" />
     <MESSAGE value="тест добавлен в папку" />
     <MESSAGE value="доавлен класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="доавлен класс" />
+    <MESSAGE value="обновлены функции" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновлены функции" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -238,26 +250,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1467" height="21" key="GridCell.Tab.0.bottom" timestamp="1592666889902">
+    <state width="1466" height="361" key="GridCell.Tab.0.bottom" timestamp="1592673233458">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1467" height="21" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592666889902" />
-    <state width="1467" height="21" key="GridCell.Tab.0.center" timestamp="1592666889901">
+    <state width="1466" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673233458" />
+    <state width="1466" height="361" key="GridCell.Tab.0.center" timestamp="1592673233458">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1467" height="21" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592666889901" />
-    <state width="1467" height="21" key="GridCell.Tab.0.left" timestamp="1592666889901">
+    <state width="1466" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673233458" />
+    <state width="1466" height="361" key="GridCell.Tab.0.left" timestamp="1592673233458">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1467" height="21" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592666889901" />
-    <state width="1467" height="21" key="GridCell.Tab.0.right" timestamp="1592666889901">
+    <state width="1466" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673233458" />
+    <state width="1466" height="361" key="GridCell.Tab.0.right" timestamp="1592673233458">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1467" height="21" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592666889901" />
+    <state width="1466" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673233458" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1592660123525">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
