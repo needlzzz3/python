@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="произведен рефакторинг, строки объеденены в методы">
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="удалила лишние слова">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,42 @@
       <option name="project" value="LOCAL" />
       <updated>1592506712095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="произведен рефакторинг, строки объеденены в методы, упорядочены в логической последовательности">
+      <created>1592508314501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592508314501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавлен тест на добавление пустой группы, произведен рефакторинг">
+      <created>1592546467803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592546467803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="поменяла местами функции">
+      <created>1592546633842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592546633842</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавила классы">
+      <created>1592547771604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592547771604</updated>
+    </task>
+    <task id="LOCAL-00008" summary="удалила лишние слова">
+      <created>1592656196528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592656196528</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +154,12 @@
     <MESSAGE value="change READ ME file" />
     <MESSAGE value="изменено имя переменной в файле test_add_group" />
     <MESSAGE value="произведен рефакторинг, строки объеденены в методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="произведен рефакторинг, строки объеденены в методы" />
+    <MESSAGE value="произведен рефакторинг, строки объеденены в методы, упорядочены в логической последовательности" />
+    <MESSAGE value="добавлен тест на добавление пустой группы, произведен рефакторинг" />
+    <MESSAGE value="поменяла местами функции" />
+    <MESSAGE value="добавила классы" />
+    <MESSAGE value="удалила лишние слова" />
+    <option name="LAST_COMMIT_MESSAGE" value="удалила лишние слова" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -135,30 +174,34 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1053" height="266" key="GridCell.Tab.0.bottom" timestamp="1592508122745">
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1592657042093">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1053" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
-    <state width="1053" height="266" key="GridCell.Tab.0.center" timestamp="1592508122745">
+    <state width="1053" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592657042093" />
+    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1592657042093">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1053" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
-    <state width="1053" height="266" key="GridCell.Tab.0.left" timestamp="1592508122745">
+    <state width="1053" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
+    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592657042093" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1592657042093">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1053" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
-    <state width="1053" height="266" key="GridCell.Tab.0.right" timestamp="1592508122745">
+    <state width="1053" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592657042093" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1592657042093">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1053" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592508122745" />
+    <state width="1053" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592657042093" />
     <state x="2439" y="170" key="SettingsEditor" timestamp="1592417021194">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592417021194" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592415693794">
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592656273045">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592415693794" />
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592656273045" />
     <state x="2747" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592411891166">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -167,16 +210,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2677" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592506955257" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_add_group.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="2781" y="297" key="refactoring.ChangeSignatureDialog" timestamp="1592546283049">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2781" y="297" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592546283049" />
   </component>
 </project>
