@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="исправлены ошибки в классах">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="переход на pytest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592673556298</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="переход на pytest">
+      <created>1592675697976</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592675697976</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +255,8 @@
     <MESSAGE value="доавлен класс" />
     <MESSAGE value="обновлены функции" />
     <MESSAGE value="исправлены ошибки в классах" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлены ошибки в классах" />
+    <MESSAGE value="переход на pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="переход на pytest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -267,26 +275,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1466" height="361" key="GridCell.Tab.0.bottom" timestamp="1592673648591">
+    <state width="1466" height="361" key="GridCell.Tab.0.bottom" timestamp="1592676094760">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1466" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673648591" />
-    <state width="1466" height="361" key="GridCell.Tab.0.center" timestamp="1592673648591">
+    <state width="1466" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592676094760" />
+    <state width="1466" height="361" key="GridCell.Tab.0.center" timestamp="1592676094760">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1466" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673648591" />
-    <state width="1466" height="361" key="GridCell.Tab.0.left" timestamp="1592673648591">
+    <state width="1466" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592676094760" />
+    <state width="1466" height="361" key="GridCell.Tab.0.left" timestamp="1592676094760">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1466" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673648591" />
-    <state width="1466" height="361" key="GridCell.Tab.0.right" timestamp="1592673648591">
+    <state width="1466" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592676094760" />
+    <state width="1466" height="361" key="GridCell.Tab.0.right" timestamp="1592676094760">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1053" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592548284227" />
-    <state width="1466" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592673648591" />
+    <state width="1466" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592676094760" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1592660123525">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -307,10 +315,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592658978138" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592666970070">
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592675704256">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592666970070" />
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592675704256" />
     <state x="2747" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592411891166">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
