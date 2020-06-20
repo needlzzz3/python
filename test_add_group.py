@@ -4,6 +4,7 @@ from selenium.common.exceptions import NoAlertPresentException, NoSuchElementExc
 import unittest
 from group import Group
 
+
 class AddGroup(unittest.TestCase):
     def setUp(self):
         self.wd = webdriver.Firefox()
@@ -65,20 +66,23 @@ class AddGroup(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.open_group_page(wd)
-        self.create_group(wd, Group (groupname="", header="", footer=""))
+        self.create_group(wd, Group(groupname="", header="", footer=""))
         self.retern_group_page(wd)
         self.logout(wd)
 
     def is_element_present(self, how, what):
-        try: self.wd.find_element(by=how, value=what)
-        except NoSuchElementException as e: return False
+        try:
+            self.wd.find_element(by=how, value=what)
+        except NoSuchElementException as e:
+            return False
         return True
-    
+
     def is_alert_present(self):
-        try: self.wd.switch_to_alert()
-        except NoAlertPresentException as e: return False
+        try:
+            self.wd.switch_to_alert()
+        except NoAlertPresentException as e:
+            return False
         return True
-    
 
     def tearDown(self):
         self.wd.quit()
