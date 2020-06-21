@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="переименовала переменные, удалила старые конфигурации из запуска" />
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="исправила название класса" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592733721088</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="исправила название класса">
+      <created>1592735151897</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592735151897</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +301,8 @@
     <MESSAGE value="вынесла Сontact в отдельный файл" />
     <MESSAGE value="прогон завершился успешно, тест test_add_contact успешно работает на unittest" />
     <MESSAGE value="переименовала переменные, удалила старые конфигурации из запуска" />
-    <option name="LAST_COMMIT_MESSAGE" value="переименовала переменные, удалила старые конфигурации из запуска" />
+    <MESSAGE value="исправила название класса" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправила название класса" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -323,25 +331,25 @@
     </state>
     <state x="798" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592732556892" />
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1050" height="361" key="GridCell.Tab.0.bottom" timestamp="1592733657009">
+    <state width="1050" height="361" key="GridCell.Tab.0.bottom" timestamp="1592735400815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733657009" />
+    <state width="1050" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735400815" />
     <state width="1051" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592731249686" />
-    <state width="1050" height="361" key="GridCell.Tab.0.center" timestamp="1592733657009">
+    <state width="1050" height="361" key="GridCell.Tab.0.center" timestamp="1592735400815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733657009" />
+    <state width="1050" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735400815" />
     <state width="1051" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592731249686" />
-    <state width="1050" height="361" key="GridCell.Tab.0.left" timestamp="1592733657008">
+    <state width="1050" height="361" key="GridCell.Tab.0.left" timestamp="1592735400815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733657008" />
+    <state width="1050" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735400815" />
     <state width="1051" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592731249686" />
-    <state width="1050" height="361" key="GridCell.Tab.0.right" timestamp="1592733657009">
+    <state width="1050" height="361" key="GridCell.Tab.0.right" timestamp="1592735400815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733657009" />
+    <state width="1050" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735400815" />
     <state width="1051" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592731249686" />
     <state width="680" height="328" key="GridCell.Tab.1.bottom" timestamp="1592733597542">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -368,10 +376,10 @@
     </state>
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592658978138" />
-    <state x="610" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592733728812">
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592735414186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733728812" />
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735414186" />
     <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592676558299" />
     <state x="2747" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592411891166">
       <screen x="1920" y="0" width="1920" height="1040" />
