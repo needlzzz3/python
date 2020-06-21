@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import NoAlertPresentException, NoSuchElementException
 import unittest
 
-from group import Contact
+from contact import Contact
 
 
 class TestAddContact(unittest.TestCase):
