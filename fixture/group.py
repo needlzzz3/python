@@ -1,6 +1,6 @@
 class GroupHelper:
 
-    def __init__ (self, app)
+    def __init__ (self, app):
         self.app = app
 
     def open_group_page(self):
