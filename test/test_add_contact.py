@@ -14,22 +14,16 @@ class TestAddContact(unittest.TestCase):
     def test_add_contact(self):
         wd = self.wd
         self.open_home_page(wd)
-        self.session.login(wd, username="admin", password="secret")
         self.add_contact(wd, Contact (firstname="F", middlename="F", lastname="F", nickname="FFF", title="FFF", company= "none", address="none", home="adress", mobile="none",
                          work="none", fax="none", email= "none", email2="none", address2="none", phone2="none", notes="none contact"))
-        self.retern_group_page(wd)
-        self.session.logout(wd)
 
     def test_add_empty_contact(self):
         wd = self.wd
         self.open_home_page(wd)
-        self.session.login(wd, username="admin", password="secret")
         self.add_contact(wd, Contact (firstname="a", middlename="a", lastname="a", nickname="", title="", company="",
                          address="", home="", mobile="",
                          work="", fax="", email="", email2="", address2="", phone2="",
                          notes="empty contact"))
-        self.retern_group_page(wd)
-        self.session.logout(wd)
 
     def retern_group_page(self, wd):
         wd.find_element_by_link_text("home page").click()

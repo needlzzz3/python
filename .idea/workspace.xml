@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="произведена декомпозиция">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="C:\Users\needl\PycharmProjects\python\fixture" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +78,22 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -100,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
       </list>
     </recent_temporary>
@@ -359,26 +375,30 @@
     </state>
     <state x="798" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592732556892" />
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1461" height="361" key="GridCell.Tab.0.bottom" timestamp="1592884470498">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1460" height="361" key="GridCell.Tab.0.bottom" timestamp="1592931225921">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
     <state width="1461" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592884470498" />
-    <state width="1461" height="361" key="GridCell.Tab.0.center" timestamp="1592884470498">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1460" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
+    <state width="1460" height="361" key="GridCell.Tab.0.center" timestamp="1592931225921">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
     <state width="1461" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592884470498" />
-    <state width="1461" height="361" key="GridCell.Tab.0.left" timestamp="1592884470498">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1460" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
+    <state width="1460" height="361" key="GridCell.Tab.0.left" timestamp="1592931225921">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
     <state width="1461" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592884470498" />
-    <state width="1461" height="361" key="GridCell.Tab.0.right" timestamp="1592884470498">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1460" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
+    <state width="1460" height="361" key="GridCell.Tab.0.right" timestamp="1592931225921">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
     <state width="1461" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592884470498" />
+    <state width="1460" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
     <state width="680" height="328" key="GridCell.Tab.1.bottom" timestamp="1592733597542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -409,18 +429,20 @@
     </state>
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735731921" />
     <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592884021526" />
-    <state x="2747" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592411891166">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="827" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592931425297">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2747" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592411891166" />
+    <state x="827" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592931425297" />
     <state x="644" y="236" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592733490910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="236" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733490910" />
-    <state x="2677" y="313" key="git4idea.merge.GitPullDialog" timestamp="1592506955257">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="757" y="313" key="git4idea.merge.GitPullDialog" timestamp="1592931437394">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2677" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592506955257" />
+    <state x="757" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592931437394" />
     <state x="2781" y="297" key="refactoring.ChangeSignatureDialog" timestamp="1592665853429">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
