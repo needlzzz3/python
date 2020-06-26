@@ -26,6 +26,16 @@ class GroupHelper:
         wd.find_element_by_name("submit").click()
         self.retern_group_page()
 
+    def delete_first_group(self):
+        wd = self.app.wd
+        self.open_group_page()
+        #выбрать первую группу
+        wd.find_element_by_name("selected[]").click()
+        #подтвердить удаление
+        wd.find_element_by_name("delete").click()
+        self.retern_group_page()
+
+
     def retern_group_page(self):
         # retern group page
         wd = self.app.wd

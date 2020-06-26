@@ -8,6 +8,11 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
 
+    def open_home_page(self):
+        # go to home page
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
+
     def contact(self, contact):
         wd = self.app.wd
         self.open_contact_page()
@@ -52,7 +57,16 @@ class ContactHelper:
         wd.find_element_by_name("notes").clear()
         wd.find_element_by_name("notes").send_keys(contact.notes)
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
-        # добавили контак
+        # добавили контакt
+        self.retern_contact_page()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        self.open_home_page()
+        #выбрать первую группу
+        wd.find_element_by_name("selected[]").click()
+        #подтвердить удаление
+        wd.find_element_by_xpath("(//input[@value='Delete'])")
         self.retern_contact_page()
 
     def retern_contact_page(self):
