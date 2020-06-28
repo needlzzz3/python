@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="в процессе создания теста по удалению контакта">
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="добавила &#10;wd.find_element_by_link_text(&quot;Logout&quot;).click()&#10;wd.find_element_by_name(&quot;user&quot;)&#10;в файл с сессией, тесты прошли в рамках одной сессии">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="C:\Users\needl\PycharmProjects\python\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_del_group.py">
+  <component name="RunManager" selected="Python tests.pytest in test_del_contact.py">
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_del_contact.py" />
         <item itemvalue="Python tests.pytest in test_del_group.py" />
         <item itemvalue="Python tests.pytest in test" />
-        <item itemvalue="Python tests.pytest in test_del_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
       </list>
@@ -388,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593179690791</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="добавила &#10;wd.find_element_by_link_text(&quot;Logout&quot;).click()&#10;wd.find_element_by_name(&quot;user&quot;)&#10;в файл с сессией, тесты прошли в рамках одной сессии">
+      <created>1593352711619</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1593352711619</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +408,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="произведен рефакторинг, строки объеденены в методы" />
     <MESSAGE value="произведен рефакторинг, строки объеденены в методы, упорядочены в логической последовательности" />
     <MESSAGE value="добавлен тест на добавление пустой группы, произведен рефакторинг" />
     <MESSAGE value="поменяла местами функции" />
@@ -429,7 +432,8 @@
     <MESSAGE value="починились тесты с контактами. В тестах не было ссылки на помощник" />
     <MESSAGE value="вынесла фикстуру в общий для всех тестов файл" />
     <MESSAGE value="в процессе создания теста по удалению контакта" />
-    <option name="LAST_COMMIT_MESSAGE" value="в процессе создания теста по удалению контакта" />
+    <MESSAGE value="добавила &#10;wd.find_element_by_link_text(&quot;Logout&quot;).click()&#10;wd.find_element_by_name(&quot;user&quot;)&#10;в файл с сессией, тесты прошли в рамках одной сессии" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавила &#10;wd.find_element_by_link_text(&quot;Logout&quot;).click()&#10;wd.find_element_by_name(&quot;user&quot;)&#10;в файл с сессией, тесты прошли в рамках одной сессии" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -459,28 +463,28 @@
     </state>
     <state x="798" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592732556892" />
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1459" height="361" key="GridCell.Tab.0.bottom" timestamp="1593180749670">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1458" height="277" key="GridCell.Tab.0.bottom" timestamp="1593353206468">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
+    <state width="1458" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593353206468" />
     <state width="1459" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593180749670" />
     <state width="1460" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
-    <state width="1459" height="361" key="GridCell.Tab.0.center" timestamp="1593180749670">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1458" height="277" key="GridCell.Tab.0.center" timestamp="1593353206468">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
+    <state width="1458" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593353206468" />
     <state width="1459" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593180749670" />
     <state width="1460" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
-    <state width="1459" height="361" key="GridCell.Tab.0.left" timestamp="1593180749670">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1458" height="277" key="GridCell.Tab.0.left" timestamp="1593353206468">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
+    <state width="1458" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593353206468" />
     <state width="1459" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593180749670" />
     <state width="1460" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
-    <state width="1459" height="361" key="GridCell.Tab.0.right" timestamp="1593180749670">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1458" height="277" key="GridCell.Tab.0.right" timestamp="1593353206468">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735685182" />
+    <state width="1458" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593353206468" />
     <state width="1459" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593180749670" />
     <state width="1460" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592931225921" />
     <state width="680" height="328" key="GridCell.Tab.1.bottom" timestamp="1592733597542">
@@ -508,10 +512,10 @@
     </state>
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592880742229" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1593179698630">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2" timestamp="1593352726066">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592735731921" />
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593352726066" />
     <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593179698630" />
     <state x="827" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592931425297">
       <screen x="0" y="0" width="1920" height="1040" />
