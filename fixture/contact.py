@@ -67,6 +67,7 @@ class ContactHelper:
         wd.find_element_by_name("selected[]").click()
         #подтвердить удаление
         wd.find_element_by_xpath("(//input[@value='Delete'])")
+        wd.switch_to_alert().accept()
         self.retern_contact_page()
 
     def retern_contact_page(self):
