@@ -70,7 +70,7 @@ class ContactHelper:
         wd.switch_to_alert().accept()
         self.retern_contact_page()
 
-    def modificate_contact(self):
+    def modificate_contact(self, contact):
         wd = self.app.wd
         self.open_home_page()
         wd.find_element_by_xpath("(//img[@alt='Edit'])").click()
