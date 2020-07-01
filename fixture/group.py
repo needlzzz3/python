@@ -39,7 +39,7 @@ class GroupHelper:
         wd = self.app.wd
         self.open_group_page()
         wd.find_element_by_name("selected[]").click()
-        wd.find_element_by_xpath("(//input[@name='edit'])[2])").click()
+        wd.find_element_by_xpath("(//input[@name='edit'])").click()
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
         wd.find_element_by_name("group_name").send_keys(group.groupname)
