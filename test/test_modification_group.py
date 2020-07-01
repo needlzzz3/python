@@ -2,10 +2,11 @@
 import pytest
 from model.group import Group
 
-def test_modificate_group(app):
-    app.session.login(username="admin", password="secret")
-    app.group.modificate_group(Group(groupname="666", header="666", footer="666"))
-    app.session.logout()
+def test_modificate_group_name(app):
+    app.group.modificate_first_group(Group(groupname="666"))
+
+def test_modificate_group_header(app):
+    app.group.modificate_first_group(Group(header="666"))
 
 
 
