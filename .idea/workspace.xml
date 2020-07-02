@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="fixture upgrade">
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="изменила тест по добавлению группы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_modification_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_modification_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <recent name="C:\Users\needl\PycharmProjects\python\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_group.test_add_group">
+  <component name="RunManager" selected="Python tests.pytest for test_modification_group.test_modificate_group_name">
     <configuration name="quadratic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +120,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_modification_group.test_modificate_group_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_modification_group.test_modificate_group_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +149,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -173,6 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_modification_group.test_modificate_group_name" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest in test" />
         <item itemvalue="Python tests.pytest in test_del_group.py" />
@@ -437,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593605499076</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036">
+      <created>1593674302567</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1593674302567</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="новый тестовый сценирий, добавла комменты" />
     <MESSAGE value="зарефакторила функцию login" />
     <MESSAGE value="тест добавлен в папку" />
     <MESSAGE value="доавлен класс" />
@@ -478,7 +515,8 @@
     <MESSAGE value="починила modificate_contact тест" />
     <MESSAGE value="починила modificate_group тест" />
     <MESSAGE value="fixture upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixture upgrade" />
+    <MESSAGE value="изменила тест по добавлению группы" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменила тест по добавлению группы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2823" y="388" key="#Notifications" timestamp="1592330115952">
@@ -509,29 +547,29 @@
     </state>
     <state x="798" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592732556892" />
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1455" height="349" key="GridCell.Tab.0.bottom" timestamp="1593674256318">
+    <state width="1455" height="349" key="GridCell.Tab.0.bottom" timestamp="1593674642534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356100877" />
-    <state width="1455" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674256318" />
+    <state width="1455" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674642534" />
     <state width="1456" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593596964596" />
-    <state width="1455" height="349" key="GridCell.Tab.0.center" timestamp="1593674256317">
+    <state width="1455" height="349" key="GridCell.Tab.0.center" timestamp="1593674642534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="572" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356100877" />
-    <state width="1455" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674256317" />
+    <state width="1455" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674642534" />
     <state width="1456" height="342" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593596964595" />
-    <state width="1455" height="349" key="GridCell.Tab.0.left" timestamp="1593674256317">
+    <state width="1455" height="349" key="GridCell.Tab.0.left" timestamp="1593674642534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="572" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356100877" />
-    <state width="1455" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674256317" />
+    <state width="1455" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674642534" />
     <state width="1456" height="342" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593596964595" />
-    <state width="1455" height="349" key="GridCell.Tab.0.right" timestamp="1593674256317">
+    <state width="1455" height="349" key="GridCell.Tab.0.right" timestamp="1593674642534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="572" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356100877" />
-    <state width="1455" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674256317" />
+    <state width="1455" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674642534" />
     <state width="1456" height="342" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593596964596" />
     <state width="948" height="347" key="GridCell.Tab.1.bottom" timestamp="1593601048668">
       <screen x="1920" y="0" width="1920" height="1040" />
