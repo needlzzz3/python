@@ -1,8 +1,7 @@
 from model.contact import Contact
 
 
-def test_modification_contact(app):
-    app.contact.modificate_contact(Contact (firstname="c", middlename="c", lastname="c", nickname="c", title="c", company="c",
-                                address="c", home="c", mobile="c",
-                                work="c", fax="c", email="c", email2="c", address2="c", phone2="c",
-                                notes="modificated"))
+def test_modification_first_contact(app):
+    if app.contact.count() == 0:
+        app.contact.contact(Contact (firstname="test"))
+    app.contact.modificate_first_contact(Contact (firstname="new"))
