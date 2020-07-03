@@ -11,7 +11,8 @@ class ContactHelper:
     def open_home_page(self):
         # go to home page
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not (len(wd.find_elements_by_xpath("(//img[@alt='vCard'])"))>0):
+            wd.find_element_by_link_text("home").click()
 
     def contact(self, contact):
         wd = self.app.wd
