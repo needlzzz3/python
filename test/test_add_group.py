@@ -10,8 +10,10 @@ def test_add_group(app):
         pass
 
 
+
 def test_add_empty_group(app):
     if app.group.count() == 0:
         app.group.create(Group(groupname="", header="", footer=""))
     else:
         pass
+
