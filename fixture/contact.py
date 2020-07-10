@@ -61,6 +61,11 @@ class ContactHelper:
 
     def delete_first_contact(self):
         wd = self.app.wd
+        self.delete_contact_by_index(0)
+
+
+    def delete_contact_by_index(self, index):
+        wd = self.app.wd
         self.open_home_page()
         self.select_first_contact()
         #подтвердить удаление
@@ -73,10 +78,18 @@ class ContactHelper:
         # выбрать первую группу
         wd.find_element_by_name("selected[]").click()
 
+    def select_contact_by_index(self, index):
+        wd = self.app.wd
+        wd.find_elements_by_name("selected[]")[index].click()
+
     def modificate_first_contact(self, new_contact_data):
         wd = self.app.wd
+        self.modificate_contact_by_index(0)
+
+    def modificate_contact_by_index(self, index, new_contact_data):
+        wd = self.app.wd
         self.open_home_page()
-        self.select_first_contact()
+        self.select_contact_by_index(index)
         wd.find_element_by_xpath("(//img[@alt='Edit'])").click()
         # открыли станицу для добавления контактов
         self.fill_contact_form(new_contact_data)
