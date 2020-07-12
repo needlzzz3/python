@@ -26,6 +26,7 @@ class ContactHelper:
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
         # добавили контакt
         self.retern_contact_page()
+        self.contact_cache is None
 
     def fill_contact_form(self, contact):
         wd = self.app.wd
@@ -45,6 +46,7 @@ class ContactHelper:
         self.change_field_value("address2", contact.address2)
         self.change_field_value("phone2", contact.phone2)
         self.change_field_value("notes", contact.notes)
+        self.contact_cache is None
 
     def change_field_value(self, field_name, text):
         wd = self.app.wd
@@ -77,6 +79,7 @@ class ContactHelper:
         wd = self.app.wd
         # выбрать первую группу
         wd.find_element_by_name("selected[]").click()
+        self.contact_cache is None
 
     def select_contact_by_index(self, index):
         wd = self.app.wd
@@ -102,8 +105,6 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
 
-    contact_cache = None
-
     #def get_contact_list(self):
     #    if self.contact_cache is None:
     #        wd = self.app.wd
@@ -114,6 +115,7 @@ class ContactHelper:
     #            id = element.find_element_by_name("selected[]").get_attribute("value")
     #            self.contact_cache.append(Contact(firstname=text, id=id))
     #    return list(self.contact_cache)
+    contact_cache = None
 
     def get_contact_list(self):
         if self.contact_cache is None:
@@ -126,11 +128,5 @@ class ContactHelper:
                 id = element.find_element_by_name("selected[]").get_attribute("value")
                 self.contact_cache.append(Contact(firstname=text, id=id))
         return list(self.contact_cache)
-
-
-
-    #cells = element.find_elements_by_tag_name("td")
-    #text = cells[2].text
-    #self.contact_cache.append(AddNew(my_f_name=text, my_id=id))
 
 
