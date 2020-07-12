@@ -104,15 +104,33 @@ class ContactHelper:
 
     contact_cache = None
 
+    #def get_contact_list(self):
+    #    if self.contact_cache is None:
+    #        wd = self.app.wd
+    #        self.open_home_page()
+    #        self.contact_cache = []
+    #        for element in wd.find_elements_by_xpath("//tr[@name='entry']"):
+    #            text = element.text
+    #            id = element.find_element_by_name("selected[]").get_attribute("value")
+    #            self.contact_cache.append(Contact(firstname=text, id=id))
+    #    return list(self.contact_cache)
+
     def get_contact_list(self):
         if self.contact_cache is None:
             wd = self.app.wd
             self.open_home_page()
             self.contact_cache = []
             for element in wd.find_elements_by_xpath("//tr[@name='entry']"):
-                text = element.text
+                goal = element.find_elements_by_tag_name("td")
+                text = goal[3].text
                 id = element.find_element_by_name("selected[]").get_attribute("value")
                 self.contact_cache.append(Contact(firstname=text, id=id))
         return list(self.contact_cache)
+
+
+
+    #cells = element.find_elements_by_tag_name("td")
+    #text = cells[2].text
+    #self.contact_cache.append(AddNew(my_f_name=text, my_id=id))
 
 
