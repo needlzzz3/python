@@ -58,7 +58,7 @@ class ContactHelper:
     def count(self):
         wd = self.app.wd
         self.open_home_page()
-        return len(wd.find_elements_by_name("selected[]"))
+        return len(wd.find_elements_by_xpath("(//img[@alt='Edit'])"))
 
 
     def delete_first_contact(self):
@@ -74,6 +74,7 @@ class ContactHelper:
         wd.find_element_by_xpath("(//input[@value='Delete'])").click()
         wd.switch_to_alert().accept()
         self.retern_contact_page()
+        self.contact_cache is None
 
     def select_first_contact(self):
         wd = self.app.wd
@@ -94,12 +95,13 @@ class ContactHelper:
         wd = self.app.wd
         self.open_home_page()
         self.select_contact_by_index(index)
-        #wd.find_element_by_xpath("(//img[@alt='Edit'])").click()
+        wd.find_elements_by_xpath("//img[@alt='Edit']")[index].click()
         # открыли станицу для добавления контактов
         self.fill_contact_form(new_contact_data)
-        wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
+        wd.find_element_by_xpath("(//input[@name='update'])").click()
         # изменили контакт
         self.retern_contact_page()
+        self.contact_cache is None
 
     def retern_contact_page(self):
         # retern contact page
@@ -124,10 +126,13 @@ class ContactHelper:
             self.open_home_page()
             self.contact_cache = []
             for element in wd.find_elements_by_xpath("//tr[@name='entry']"):
-                goal = element.find_elements_by_tag_name("td")
-                text = goal[3].text
+                text = element.find_elements_by_tag_name("td")
+                text_firstname = text[3].text
+                text_lastname = text[2].text
                 id = element.find_element_by_name("selected[]").get_attribute("value")
-                self.contact_cache.append(Contact(firstname=text, id=id))
+                self.contact_cache.append(Contact(firstname=text_firstname, lastname=text_lastname, id=id))
         return list(self.contact_cache)
+
+
 
 
