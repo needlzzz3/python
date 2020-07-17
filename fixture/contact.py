@@ -26,7 +26,7 @@ class ContactHelper:
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
         # добавили контакt
         self.retern_contact_page()
-        self.contact_cache is None
+        self.contact_cache = None
 
     def fill_contact_form(self, contact):
         wd = self.app.wd
@@ -46,7 +46,7 @@ class ContactHelper:
         self.change_field_value("address2", contact.address2)
         self.change_field_value("phone2", contact.phone2)
         self.change_field_value("notes", contact.notes)
-        self.contact_cache is None
+        self.contact_cache = None
 
     def change_field_value(self, field_name, text):
         wd = self.app.wd
@@ -74,13 +74,13 @@ class ContactHelper:
         wd.find_element_by_xpath("(//input[@value='Delete'])").click()
         wd.switch_to_alert().accept()
         self.retern_contact_page()
-        self.contact_cache is None
+        self.contact_cache = None
 
     def select_first_contact(self):
         wd = self.app.wd
         # выбрать первую группу
         wd.find_element_by_name("selected[]").click()
-        self.contact_cache is None
+        self.contact_cache = None
 
     def select_contact_by_index(self, index):
         wd = self.app.wd
@@ -101,7 +101,7 @@ class ContactHelper:
         wd.find_element_by_xpath("(//input[@name='update'])").click()
         # изменили контакт
         self.retern_contact_page()
-        self.contact_cache is None
+        self.contact_cache = None
 
     def retern_contact_page(self):
         # retern contact page
