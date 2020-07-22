@@ -33,7 +33,6 @@ class Contact:
         self.notes = notes
         self.id = id
         self.all_phones_from_home_page = all_phones_from_home_page
-        self.all_info_from_home_page = all_info_from_home_page
 
     def __repr__(self):
         return "%s:%s %s" % (self.id, self.firstname, self.lastname)
