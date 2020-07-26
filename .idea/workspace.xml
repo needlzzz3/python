@@ -19,14 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="преобразован тест по добавлению групп. чтение производится из json файла">
-      <change afterPath="$PROJECT_DIR$/data/contacts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/contacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="задание 18,19&#10;преобрахзовала тест по добавлению контактов">
+      <change afterPath="$PROJECT_DIR$/check_db_connection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,28 @@
       <recent name="C:\Users\needl\PycharmProjects\python\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
+  <component name="RunManager" selected="Python.check_db_connection">
+    <configuration name="check_db_connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_db_connection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,9 +222,11 @@
       <item itemvalue="Python tests.pytest in test_add_contact.py" />
       <item itemvalue="Python.contacts" />
       <item itemvalue="Python.contact" />
+      <item itemvalue="Python.check_db_connection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check_db_connection" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python.contact" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
@@ -229,13 +246,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592329598071</updated>
-    </task>
-    <task id="LOCAL-00020" summary="исправила название класса">
-      <created>1592735151897</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1592735151897</updated>
     </task>
     <task id="LOCAL-00021" summary="исправила название класса">
       <created>1592735721821</created>
@@ -573,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595710760007</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="задание 18,19&#10;преобрахзовала тест по добавлению контактов">
+      <created>1595773490102</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1595773490103</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,7 +606,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="починила modificate_contact тест" />
     <MESSAGE value="починила modificate_group тест" />
     <MESSAGE value="fixture upgrade" />
     <MESSAGE value="изменила тест по добавлению группы" />
@@ -614,7 +630,8 @@
     <MESSAGE value="15 задание контакты" />
     <MESSAGE value="изменила конфигурационный файл" />
     <MESSAGE value="преобразован тест по добавлению групп. чтение производится из json файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="преобразован тест по добавлению групп. чтение производится из json файла" />
+    <MESSAGE value="задание 18,19&#10;преобрахзовала тест по добавлению контактов" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 18,19&#10;преобрахзовала тест по добавлению контактов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="388" key="#Notifications" timestamp="1594999923829">
@@ -708,11 +725,11 @@
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595496703338" />
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593595379977" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595710768830">
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595773559817">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356004475" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595710768830" />
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595773559817" />
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595079484239" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1594388955819">
       <screen x="1920" y="0" width="1920" height="1040" />
