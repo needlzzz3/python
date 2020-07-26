@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="неделя 7, утсановка драйвера БД">
-      <change afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_db_matches_ui.py" afterDir="false" />
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="урок 7 Загрузка информации из базы данных в виде объектов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target.json" beforeDir="false" afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <recent name="C:\Users\needl\PycharmProjects\python\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_db_matches_ui.py">
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration name="check_db_connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +222,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -237,21 +235,21 @@
     </configuration>
     <list>
       <item itemvalue="Python.group" />
-      <item itemvalue="Python tests.pytest in test_add_group.py" />
-      <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
-      <item itemvalue="Python tests.pytest in test_add_contact.py" />
       <item itemvalue="Python.contacts" />
       <item itemvalue="Python.contact" />
       <item itemvalue="Python.check_db_connection" />
+      <item itemvalue="Python tests.pytest in test_add_group.py" />
+      <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
+      <item itemvalue="Python tests.pytest in test_add_contact.py" />
       <item itemvalue="Python tests.pytest in test_db_matches_ui.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest in test_db_matches_ui.py" />
         <item itemvalue="Python.check_db_connection" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python.contact" />
-        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python.contacts" />
         <item itemvalue="Python.group" />
         <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
@@ -268,13 +266,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592329598071</updated>
-    </task>
-    <task id="LOCAL-00022" summary="тесты прошли успешно">
-      <created>1592881006605</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1592881006605</updated>
     </task>
     <task id="LOCAL-00023" summary="файлы разнесены по по пакетам">
       <created>1592882273887</created>
@@ -612,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595774469345</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="урок 7 Загрузка информации из базы данных в виде объектов">
+      <created>1595780645802</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1595780645802</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixture upgrade" />
     <MESSAGE value="изменила тест по добавлению группы" />
     <MESSAGE value="upgrade group tests" />
     <MESSAGE value="upgrade contact tests" />
@@ -653,7 +650,8 @@
     <MESSAGE value="преобразован тест по добавлению групп. чтение производится из json файла" />
     <MESSAGE value="задание 18,19&#10;преобрахзовала тест по добавлению контактов" />
     <MESSAGE value="неделя 7, утсановка драйвера БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="неделя 7, утсановка драйвера БД" />
+    <MESSAGE value="урок 7 Загрузка информации из базы данных в виде объектов" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 7 Загрузка информации из базы данных в виде объектов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="388" key="#Notifications" timestamp="1594999923829">
@@ -666,11 +664,11 @@
     </state>
     <state x="727" y="126" key="#Unittests_in_test_add_group.py/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733286442" />
     <state x="2647" y="126" key="#Unittests_in_test_add_group.py/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592415407048" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595741700093">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595780700688">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733651396" />
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595705793957" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780700688" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595741700093" />
     <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594633907517">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -689,29 +687,29 @@
     </state>
     <state x="798" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592732556892" />
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1432" height="345" key="GridCell.Tab.0.bottom" timestamp="1595779078505">
+    <state width="1432" height="345" key="GridCell.Tab.0.bottom" timestamp="1595780703678">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1432" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595779078505" />
+    <state width="1432" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780703678" />
     <state width="823" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590799" />
-    <state width="1432" height="345" key="GridCell.Tab.0.center" timestamp="1595779078505">
+    <state width="1432" height="345" key="GridCell.Tab.0.center" timestamp="1595780703678">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1432" height="345" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595779078505" />
+    <state width="1432" height="345" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780703678" />
     <state width="823" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590799" />
-    <state width="1432" height="345" key="GridCell.Tab.0.left" timestamp="1595779078505">
+    <state width="1432" height="345" key="GridCell.Tab.0.left" timestamp="1595780703678">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1432" height="345" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595779078505" />
+    <state width="1432" height="345" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780703678" />
     <state width="823" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590798" />
-    <state width="1432" height="345" key="GridCell.Tab.0.right" timestamp="1595779078505">
+    <state width="1432" height="345" key="GridCell.Tab.0.right" timestamp="1595780703678">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1432" height="345" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595779078505" />
+    <state width="1432" height="345" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780703678" />
     <state width="823" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590799" />
     <state width="948" height="347" key="GridCell.Tab.1.bottom" timestamp="1595000910233">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -747,11 +745,11 @@
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595496703338" />
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593595379977" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595773559817">
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595780651625">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356004475" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595773559817" />
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780651625" />
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595079484239" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1594388955819">
       <screen x="1920" y="0" width="1920" height="1040" />
