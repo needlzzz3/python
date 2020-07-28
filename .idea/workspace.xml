@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="изменила тест по добвалению групп. проверка списка идет через БД">
-      <change afterPath="$PROJECT_DIR$/fixture/orm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target.json" beforeDir="false" afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
-    </list>
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="урок 7 ORM – Object Relational Mapping" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -333,13 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592329598071</updated>
-    </task>
-    <task id="LOCAL-00024" summary="произведена декомпозиция">
-      <created>1592883464536</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1592883464536</updated>
     </task>
     <task id="LOCAL-00025" summary="произведена декомпозиция">
       <created>1592884009938</created>
@@ -677,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595781854419</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="урок 7 ORM – Object Relational Mapping">
+      <created>1595915478227</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1595915478227</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -693,7 +681,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upgrade group tests" />
     <MESSAGE value="upgrade contact tests" />
     <MESSAGE value="fixed fixture" />
     <MESSAGE value="задание 10" />
@@ -718,7 +705,8 @@
     <MESSAGE value="неделя 7, утсановка драйвера БД" />
     <MESSAGE value="урок 7 Загрузка информации из базы данных в виде объектов" />
     <MESSAGE value="изменила тест по добвалению групп. проверка списка идет через БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменила тест по добвалению групп. проверка списка идет через БД" />
+    <MESSAGE value="урок 7 ORM – Object Relational Mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 7 ORM – Object Relational Mapping" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="388" key="#Notifications" timestamp="1594999923829">
@@ -754,29 +742,29 @@
     </state>
     <state x="798" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592732556892" />
     <state x="2718" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592329732436" />
-    <state width="1416" height="341" key="GridCell.Tab.0.bottom" timestamp="1595915098088">
+    <state width="1416" height="341" key="GridCell.Tab.0.bottom" timestamp="1595915441617">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1416" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915098088" />
+    <state width="1416" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915441617" />
     <state width="823" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590799" />
-    <state width="1416" height="341" key="GridCell.Tab.0.center" timestamp="1595915098088">
+    <state width="1416" height="341" key="GridCell.Tab.0.center" timestamp="1595915441616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1416" height="341" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915098088" />
+    <state width="1416" height="341" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915441616" />
     <state width="823" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590799" />
-    <state width="1416" height="341" key="GridCell.Tab.0.left" timestamp="1595915098088">
+    <state width="1416" height="341" key="GridCell.Tab.0.left" timestamp="1595915441616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1416" height="341" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915098088" />
+    <state width="1416" height="341" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915441616" />
     <state width="823" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590798" />
-    <state width="1416" height="341" key="GridCell.Tab.0.right" timestamp="1595915098088">
+    <state width="1416" height="341" key="GridCell.Tab.0.right" timestamp="1595915441617">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1450" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594135364034" />
-    <state width="1416" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915098088" />
+    <state width="1416" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915441617" />
     <state width="823" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595744590799" />
     <state width="948" height="347" key="GridCell.Tab.1.bottom" timestamp="1595000910233">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -812,11 +800,11 @@
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595496703338" />
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593595379977" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595780651625">
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595915484806">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356004475" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595780651625" />
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915484806" />
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595079484239" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1594388955819">
       <screen x="1920" y="0" width="1920" height="1040" />
