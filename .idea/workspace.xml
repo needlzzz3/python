@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="урок 7 ORM – Object Relational Mapping">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_db_connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/orm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/orm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,13 +323,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592329598071</updated>
-    </task>
-    <task id="LOCAL-00026" summary="из файла test_add_contact вынесена авторизация и разлогинивание, а также переход на страницу с группами">
-      <created>1592932348989</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1592932348989</updated>
     </task>
     <task id="LOCAL-00027" summary="починились тесты с контактами. В тестах не было ссылки на помощник">
       <created>1593175600665</created>
@@ -669,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595915633748</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="урок 7 ORM – Object Relational Mapping">
+      <created>1595917525980</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1595917525981</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -804,11 +802,11 @@
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595496703338" />
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593595379977" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595915639515">
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595917534115">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356004475" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595915639515" />
+    <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595917534115" />
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595079484239" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1594388955819">
       <screen x="1920" y="0" width="1920" height="1040" />
