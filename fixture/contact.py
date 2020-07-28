@@ -168,6 +168,19 @@ class ContactHelper:
         phone2 = re.search("P: (.*)", text).group(1)
         return Contact(home=home, mobile=mobile, work=work, phone2=phone2)
 
+    def select_contact_by_id(self, index):
+        wd = self.app.wd
+        self.open_home_page()
+        wd.find_element_by_name("selected[]").click()
 
+    def delete_contact_by_id(self, id):
+        wd = self.app.wd
+        self.open_home_page()
+        self.select_contact_by_id(id)
+        #подтвердить удаление
+        wd.find_element_by_xpath("(//input[@value='Delete'])").click()
+        wd.switch_to_alert().accept()
+        self.retern_contact_page()
+        self.contact_cache = None
 
 
