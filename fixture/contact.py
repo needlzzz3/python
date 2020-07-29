@@ -183,4 +183,14 @@ class ContactHelper:
         self.retern_contact_page()
         self.contact_cache = None
 
+    def modificate_contact_by_id(self, id, new_contact_data):
+        wd = self.app.wd
+        self.open_home_page()
+        self.select_contact_by_id(id)
+        wd.find_element_by_xpath("//a[@href='edit.php?id=%s']" % id).click()
+        self.fill_contact_form(new_contact_data)
+        wd.find_element_by_xpath("//input[@value='Update']").click()
+        self.open_home_page()
+        self.contact_cache = None
+
 

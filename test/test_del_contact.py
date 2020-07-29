@@ -2,6 +2,7 @@ from fixture import db
 from model.contact import Contact
 import random
 
+
 def test_delete_some_contact(app, db, check_ui):
     if len(db.get_contact_list()) == 0:
         app.contact.contact(Contact(firstname="test"))
