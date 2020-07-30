@@ -71,7 +71,7 @@ class ORMFixture:
             select(g for g in ORMFixture.ORMGroup if count(g.contacts) == 0))
 
     @db_session
-    def get_dealed_contacts(self):
+    def contacts_in_groups(self):
         return self.convert_contacts_to_model(
             select(c for c in ORMFixture.ORMContact if count(c.groups) != 0))
 
