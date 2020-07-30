@@ -10,7 +10,7 @@ def test_full_contact_on_home_page(app, db):
         assert contact_from_home_page[z].firstname == contact_from_bd[z].firstname
         assert contact_from_home_page[z].lastname == contact_from_bd[z].lastname
         assert contact_from_home_page[z].address == contact_from_bd[z].address
-        assert contact_from_home_page[z].email == contact_from_bd[z].merge_emails_like_on_home_page
+        assert contact_from_home_page[z].all_emails_from_home_page == contact_from_bd[z].merge_emails_like_on_home_page
         assert contact_from_home_page[z].all_phones_from_home_page == contact_from_bd[z].merge_phones_like_on_home_page
 
 
