@@ -19,12 +19,9 @@ def test_add_contact_to_group(app, db):
      groups_without_contacts = orm.groups_without_contacts()
      if len(groups_without_contacts) == 0:
          app.group.create(Group(name="test"))
-        # groups_without_contacts = orm.groups_without_contacts()
      if len(contacts_without_groups) == 0:
          app.contact.contact(Contact(firstname="test"))
-         #contacts_without_groups = orm.contacts_without_groups()
      app.contact.add_contact_to_group(contacts_without_groups[0], groups_without_contacts[0])
-     #print("Contact with id %s has been successfully added to the group with id %s" % (contacts_without_groups[0], groups_without_contacts[0]))
      new_contacts_without_groups = orm.contacts_without_groups()
      new_groups_without_contacts = orm.groups_without_contacts()
      assert len(contacts_without_groups) == len(new_contacts_without_groups) + 1
