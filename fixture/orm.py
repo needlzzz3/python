@@ -60,3 +60,25 @@ class ORMFixture:
         return self.convert_contacts_to_model(
             select(c for c in ORMFixture.ORMContact if c.deprecated is None and orm_group not in c.groups))
 
+    @db_session
+    def contacts_without_groups(self):
+        return self.convert_contacts_to_model(
+            select(c for c in ORMFixture.ORMContact if count(c.groups) == 0))
+
+    @db_session
+    def groups_without_contacts(self):
+        return self.convert_groups_to_model(
+            select(g for g in ORMFixture.ORMGroup if count(g.contacts) == 0))
+
+    @db_session
+    def get_dealed_contacts(self):
+        return self.convert_contacts_to_model(
+            select(c for c in ORMFixture.ORMContact if count(c.groups) != 0))
+
+    @db_session
+    def get_groups_of_contact(self, contact):
+        orm_contact = list(select(c for c in ORMFixture.ORMContact if c.id == contact.my_id))[0]
+        return self.convert_groups_to_model(orm_contact.groups)
+
+
+
