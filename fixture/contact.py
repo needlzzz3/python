@@ -193,4 +193,19 @@ class ContactHelper:
         self.open_home_page()
         self.contact_cache = None
 
+    def clear(self, s):
+        return re.sub("[() -]", "", s)
+
+    def merge_phones_like_on_home_page(self, contact):
+        return "\n".join(filter(lambda x: x != "",
+                                map(lambda x: self.clear(x),
+                                    filter(lambda x: x is not None,
+                                           [contact.home, contact.mobile, contact.work, contact.phone2]))))
+
+    def merge_emails_like_on_home_page(self, contact):
+        return "\n".join(filter(lambda x: x != "",
+                                map(lambda x: self.clear(x),
+                                    filter(lambda x: x is not None,
+                                           [contact.email, contact.email2, contact.email3]))))
+
 

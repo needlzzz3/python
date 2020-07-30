@@ -2,32 +2,16 @@ import re
 from fixture import contact
 from model.contact import Contact
 
-
-def clear(s):
-    return re.sub("[() -]", "", s)
-
-def merge_phones_like_on_home_page(contact):
-    return "\n".join(filter(lambda x: x != "",
-                            map(lambda x: clear(x),
-                                filter(lambda x: x is not None,
-                                       [contact.home, contact.mobile, contact.work, contact.phone2]))))
-
-def merge_emails_like_on_home_page(contact):
-    return "\n".join(filter(lambda x: x != "",
-                            map(lambda x: clear(x),
-                                filter(lambda x: x is not None,
-                                       [contact.email, contact.email2, contact.email3]))))
-
 def test_full_contact_on_home_page(app, db):
     contact_from_home_page = sorted(app.contact.get_contact_list(), key=Contact.id_or_max)
     contact_from_bd = sorted(db.get_contact_list(),  key=Contact.id_or_max)
     assert len(contact_from_home_page) == len(contact_from_bd)
-    for i in range(len(contact_from_home_page)):
-        assert contact_from_home_page[i].firstname == contact_from_bd[i].firstname
-        assert contact_from_home_page[i].lastname == contact_from_bd[i].lastname
-        assert contact_from_home_page[i].address == contact_from_bd[i].address
-        assert contact_from_home_page[i].email == contact_from_bd[i].merge_emails_like_on_home_page
-        assert contact_from_home_page[i].all_phones_from_home_page == contact_from_bd[i].merge_phones_like_on_home_page
+    for z in range(len(contact_from_home_page)):
+        assert contact_from_home_page[z].firstname == contact_from_bd[z].firstname
+        assert contact_from_home_page[z].lastname == contact_from_bd[z].lastname
+        assert contact_from_home_page[z].address == contact_from_bd[z].address
+        assert contact_from_home_page[z].email == contact_from_bd[z].merge_emails_like_on_home_page
+        assert contact_from_home_page[z].all_phones_from_home_page == contact_from_bd[z].merge_phones_like_on_home_page
 
 
 #def test_phones_on_contact_view_page(app):
