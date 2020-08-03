@@ -4,6 +4,8 @@ from model.group import Group
 from fixture import orm
 
 
+
+
 orm = ORMFixture(host="127.0.0.1", name="addressbook", user="root", password="")
 
 

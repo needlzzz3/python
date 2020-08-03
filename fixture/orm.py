@@ -27,7 +27,7 @@ class ORMFixture:
         groups = Set(lambda: ORMFixture.ORMGroup, table="address_in_groups", column="group_id", reverse="contacts", lazy=True)
 
     def __init__(self, host, name, user, password):
-        self.db.bind('mysql', host=host, database=name, user=user, password=password, conv=decoders)
+        self.db.bind('mysql', host=host, database=name, user=user, password=password)
         self.db.generate_mapping()
         sql_debug(True)
 
@@ -77,7 +77,7 @@ class ORMFixture:
 
     @db_session
     def get_groups_of_contact(self, contact):
-        orm_contact = list(select(c for c in ORMFixture.ORMContact if c.id == contact.my_id))[0]
+        orm_contact = list(select(c for c in ORMFixture.ORMContact if c.id == contact.id))[0]
         return self.convert_groups_to_model(orm_contact.groups)
 
 
