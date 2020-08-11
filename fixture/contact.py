@@ -213,7 +213,7 @@ class ContactHelper:
         wd = self.app.wd
         self.select_contact_by_id(contact.id)
         wd.find_element_by_name("to_group").click()
-        select(wd.find_element_by_name("to_group")).select_by_value(group.id)
+        Select(wd.find_element_by_name("to_group")).select_by_value(group.id)
         wd.find_element_by_name("add").click()
         self.open_home_page()
 
