@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="задание 22">
-      <change afterPath="$PROJECT_DIR$/bdd/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdd/group_scenarios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdd/group_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdd/groups.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="unit 10">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -436,13 +433,6 @@
       <option name="presentableId" value="Default" />
       <updated>1592329598071</updated>
     </task>
-    <task id="LOCAL-00035" summary="fixture upgrade">
-      <created>1593605499076</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1593605499076</updated>
-    </task>
     <task id="LOCAL-00036">
       <created>1593674302567</created>
       <option name="number" value="00036" />
@@ -779,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597118025460</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="unit 10">
+      <created>1597156627951</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1597156627983</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -795,7 +792,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="добавлена проверка сравнения в тест add_contact" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="указала имя класса" />
     <MESSAGE value="не згаю, что сделала, только так и работает" />
     <MESSAGE value="изменила тесты контактов. вроде работает" />
@@ -820,7 +817,8 @@
     <MESSAGE value="задание 21" />
     <MESSAGE value="задание 21, тест прошел успешно" />
     <MESSAGE value="задание 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 22" />
+    <MESSAGE value="unit 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit 10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="388" key="#Notifications" timestamp="1594999923829">
@@ -918,12 +916,12 @@
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595496703338" />
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593595379977" />
-    <state x="610" y="258" key="Vcs.Push.Dialog.v2" timestamp="1597118033879">
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2" timestamp="1597156632049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597118033879" />
     <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596432390871" />
-    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595079484239" />
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597156632049" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1594388955819">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
