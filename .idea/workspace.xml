@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="задание 21, тест прошел успешно">
+    <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="задание 22">
+      <change afterPath="$PROJECT_DIR$/bdd/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/group_scenarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/group_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/groups.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/orm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/orm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact_to_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact_to_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_contact_from_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_contact_from_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,13 +436,6 @@
       <option name="presentableId" value="Default" />
       <updated>1592329598071</updated>
     </task>
-    <task id="LOCAL-00034" summary="починила modificate_group тест">
-      <created>1593596999782</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1593596999782</updated>
-    </task>
     <task id="LOCAL-00035" summary="fixture upgrade">
       <created>1593605499076</created>
       <option name="number" value="00035" />
@@ -779,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596432380225</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="задание 22">
+      <created>1597118025460</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1597118025460</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -818,9 +818,9 @@
     <MESSAGE value="урок 7 ORM – Object Relational Mapping" />
     <MESSAGE value="урок 20" />
     <MESSAGE value="задание 21" />
-    <MESSAGE value="задание 22" />
     <MESSAGE value="задание 21, тест прошел успешно" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 21, тест прошел успешно" />
+    <MESSAGE value="задание 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 22" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="388" key="#Notifications" timestamp="1594999923829">
@@ -843,6 +843,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594633907517" />
+    <state x="2626" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597119868134">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2626" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597119868134" />
     <state x="2589" y="103" key="#pytest_in_test_add_contact.py" timestamp="1592658958271">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -914,10 +918,10 @@
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733444845" />
     <state x="2439" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595496703338" />
     <state x="519" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593595379977" />
-    <state x="2530" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596432390871">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2" timestamp="1597118033879">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356004475" />
+    <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597118033879" />
     <state x="2530" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596432390871" />
     <state x="610" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595079484239" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1594388955819">
@@ -980,11 +984,6 @@
           <url>file://$PROJECT_DIR$/fixture/orm.py</url>
           <line>71</line>
           <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_del_contact_from_group.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
