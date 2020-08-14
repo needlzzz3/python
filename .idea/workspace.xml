@@ -20,31 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5014058-476b-4239-aa96-4f96090262b4" name="Default Changelist" comment="поменяла окружение">
-      <change afterPath="$PROJECT_DIR$/allure-results/0e3fa6cb-8f23-4396-aafe-aec442990acb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/151cb5d1-8275-41e0-8a33-6ef27fe712d3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2961b443-6b0e-45fa-a281-ca64780ce359-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/32a26f47-175a-418f-8630-2c2400ac7059-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/503754f4-df5c-449a-a154-eb9b9e07852e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/54933734-e579-495e-9d07-e02c0effd892-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5c314814-516a-467a-919b-bd20e204048b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/605caede-7995-4058-a356-d10c4e6b6c3b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/68164170-c781-4e3a-9fb4-830dd9764119-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6b3db86d-876a-4b5a-918a-4746482d58d3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7ad09599-89ce-4ebc-a827-adf8be91323f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/920176ff-eab7-4ee8-afb0-2f7dedd0e481-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/93b89cd5-98fc-4fcf-9c59-1328d4577cc3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9718fd23-b044-4a64-8613-c36d5948d7bd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a2540016-c8a5-469e-97f4-7c54aa29378e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/aa3dfb6b-7d4a-4e97-abf8-4179670b533b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ae79183e-ead4-4e51-ac08-d594e5d525b6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cb499000-7dcb-4c78-9f9b-cdbee7c4e640-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d5a64e91-5aaa-4c6b-8fb6-de7a4b4eb5d3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d69c267c-4b3a-45b5-bea5-5871c2042cbd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb23183c-b5e7-462c-bd3f-4ee98878f3c4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ef19a782-1356-4218-b241-a79ebf0e056a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f75f5162-0e25-424c-b28e-8ea8c00ed983-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ff706104-1899-4298-aa3d-5fcfb3a303d6-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact_to_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact_to_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_del_contact_from_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_contact_from_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -657,11 +635,11 @@
     </state>
     <state x="727" y="126" key="#Unittests_in_test_add_group.py/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733286442" />
     <state x="2647" y="126" key="#Unittests_in_test_add_group.py/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592415407048" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597308237352">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597409360671">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592733651396" />
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596045242815" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597409360671" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597308237352" />
     <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594633907517">
       <screen x="1920" y="0" width="1920" height="1040" />
